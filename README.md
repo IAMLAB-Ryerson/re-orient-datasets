@@ -14,6 +14,8 @@ It's clearly that A-P are flipped.
 
 ### solution
 
+note: need docker installed.
+
 ```bash
 python ccna.py
 ```
