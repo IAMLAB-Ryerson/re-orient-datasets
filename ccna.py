@@ -52,7 +52,7 @@ def convert_mnc_to_nii(minc_root_dir, target_dir):
 
 if __name__ == '__main__':
     # Set your input and output directories here
-    minc_root = r'D:\data\CCNA\CCNA\FLAIR\MINC'  # Directory containing .mnc files
+    minc_root_dir = r'D:\data\CCNA\CCNA\FLAIR\MINC'  # Directory containing .mnc files
     target_dir = r'D:\temp\CCNA\FLAIR\NIfTI'  # Directory where .nii.gz files will be saved
     
-    convert_mnc_to_nii(minc_root, target_dir)
+    convert_mnc_to_nii(minc_root_dir, target_dir)
